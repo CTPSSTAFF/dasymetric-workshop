@@ -1,0 +1,17 @@
+
+Demo data pulled from Baseline Inequities 2021 demo data prep.
+And 2021 towns saved from tigris call.
+
+2019 Impervious surface downloaded (5/10/2023) and clipped to area around Lynn.
+
+
+`````````````
+
+library(tidyverse)
+library(sf)
+demo <- read_rds("Output/Demographic_Data.rds")
+mapview::mapview(demo)+towns
+towns <- tigris::county_subdivisions("MA", cb =T)
+
+st_write(demo, "ForDasyWorkshop.gpkg", "Demo2021")
+st_write(towns, "ForDasyworkshop.gpkg", "Munis2021")

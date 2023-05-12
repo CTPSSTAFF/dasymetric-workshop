@@ -1,0 +1,8 @@
+cache/
+.ipynb_checkpoints/
+data/base/nlcd_2019_impervious_l48_20210604.ige
+data/base/nlcd_2019_impervious_l48_20210604.img
+data/base/nlcd_2019_impervious_l48_20210604.rde
+data/base/nlcd_2019_impervious_l48_20210604.rrd
+data/base/nlcd_2019_impervious_l48_20210604.xml
+data/base/nlcd_2019_impervious_l48_20210604_clippedAroundLynn.tif.aux.xml
